@@ -49,6 +49,54 @@ Main-content styles starts from here
 }
 /*
 ==================
+Position styles starts from here
+==================
+*/
+.position {
+	padding: 10px;
+	border: 5px solid #E12030;
+}
+.relative {
+	background-color: #fff;
+	position: relative;
+	width: 500px;
+	overflow: hidden;
+}
+.absolute {
+	background-color: #f0f;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	transition: 2s;
+}
+.relative:hover .absolute {
+	top: 0;
+	right: 0;
+}
+.fixed {
+	background-color: #f0f;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	transition: 5s;
+}
+.fixed:hover {
+	background-color: #ff0;
+}
+.fixed-two {
+	background-color: #f0f;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	transition: 5s;
+}
+.fixed-two:hover {
+	background-color: #0ff;
+}
+/*
+==================
 Footer styles starts from here
 ==================
 */
