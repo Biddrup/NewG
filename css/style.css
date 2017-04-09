@@ -1,0 +1,66 @@
+/*
+==================
+Main styles starts from here
+==================
+*/
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1170px;
+	border: 2px solid #26AB4F;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #C4C5C4;
+	padding: 20px 15px;
+}
+
+/*
+==================
+Header styles starts from here
+==================
+*/
+.header {
+	border: 2px solid #D93548;
+	background-color: #C8BFE8;
+}
+
+/*
+==================
+Main-content styles starts from here
+==================
+*/
+.main-content {
+	margin: 20px 15px;
+	overflow: hidden;
+}
+.left-side {
+	width: 800px;
+	float: left;
+	background-color: #C8BFE7;
+	border: 5px solid #E12030;
+}
+.right-side {
+	width: 300px;
+	float: right;
+	background-color: #C8BFE7;
+	border: 5px solid #E12030;
+}
+/*
+==================
+Footer styles starts from here
+==================
+*/
+.footer {
+	border: 2px solid #D93548;
+}
+.new-div {
+	width: 100px;
+	height: 50px;
+	background-color: #0ff;
+	transition: 5s;
+}
+.new-div:hover {
+	background-color: #ff0;
+}
