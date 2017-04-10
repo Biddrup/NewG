@@ -127,8 +127,27 @@
 			<div class="new-div">
 				
 			</div><!-- /.new-div -->
+
+
+			<!-- Test jQuery area -->
+			<div class="jquery">
+				<p id="test">
+					
+				</p>
+				<p id="test2">
+					
+				</p>
+			</div>
 			<p>Copyright &copy;Biddrup</p>
 		</footer><!-- /.footer -->
 	</div><!-- /.container -->
+
+	<!-- Begenning of jQuery part -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		document.getElementById('test').innerHTML = 'This is from Js';
+		$('#test2').html('This is from jQuery');
+	</script>
 </body>
 </html>
