@@ -1,8 +1,9 @@
 /*
 ==================
-Header styles starts from here
+carousel styles starts from here
 ==================
 */
-.top-menu {
-	background-color: #F1F1F1;
+
+.item img {
+	width: 100%;
 }
