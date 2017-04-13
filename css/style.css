@@ -3,6 +3,9 @@
 carousel styles starts from here
 ==================
 */
+.slider {
+    margin-top: 55px;
+}
 
 .item img {
 	width: 100%;
