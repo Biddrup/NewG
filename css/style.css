@@ -10,15 +10,19 @@ img {
     margin-top: 55px;
     background-color: #CDCDCD;
 }
+/*
+==============================
+Begenning of Single video styles
+==============================
+*/
 .single-video {
-	
+	padding: 5px;
 }
 .single-video-thumb {
 	position: relative;
 }
 .single-video-thumb:hover {
 	opacity: .8;
-	color: #f00;
 }
 .single-video-thumb a {
     position: absolute;
@@ -48,3 +52,23 @@ img {
 	display: inline-block;
 	margin-right: 10px;
 }
+/*
+==============================
+End of Single video styles
+==============================
+*/
+
+/*
+==============================
+Begenning of video-by-catagory styles
+==============================
+*/
+.position-middle {
+	margin: 0 auto;
+	display: table;
+}
+/*
+==============================
+End of video-by-catagory styles
+==============================
+*/
