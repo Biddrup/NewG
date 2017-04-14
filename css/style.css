@@ -3,10 +3,48 @@
 carousel styles starts from here
 ==================
 */
+img {
+	width: 100%;
+}
 .slider {
     margin-top: 55px;
+    background-color: #CDCDCD;
+}
+.single-video {
+	
+}
+.single-video-thumb {
+	position: relative;
+}
+.single-video-thumb:hover {
+	opacity: .8;
+	color: #f00;
+}
+.single-video-thumb a {
+    position: absolute;
+    top: 36%;
+    right: 46%;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+}
+.single-video-thumb a:hover {
+    font-size: 40px;
+    color: green;
 }
 
-.item img {
-	width: 100%;
+.single-video-content {
+	background-color: #99D9EA;
+	color: #fff;
+}
+.history {
+	list-style: none;
+	margin: 0 auto;
+	display: table;
+	padding: 0;
+}
+.history li {
+	display: inline-block;
+	margin-right: 10px;
 }
