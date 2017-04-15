@@ -8,7 +8,7 @@ img {
 }
 .slider {
     margin-top: 55px;
-    background-color: #CDCDCD;
+    background-color: #EFE4B0;
 }
 /*
 ==============================
@@ -39,7 +39,7 @@ Begenning of Single video styles
 }
 
 .single-video-content {
-	background-color: #99D9EA;
+	background-color: #C8BFE7;
 	color: #fff;
 }
 .history {
@@ -63,9 +63,19 @@ End of Single video styles
 Begenning of video-by-catagory styles
 ==============================
 */
+.video-by-category {
+	padding: 10px 0;
+	background-color: #DFFBFF;
+}
 .position-middle {
 	margin: 0 auto;
 	display: table;
+	text-transform: uppercase;
+}
+.ad-place {
+    background-color: #eee;
+    margin: 10px 0;
+    padding: 30px;
 }
 /*
 ==============================
